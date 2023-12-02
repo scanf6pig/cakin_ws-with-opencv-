@@ -1,0 +1,8 @@
+prefix=/home/lin/catkin_ws/install
+
+Name: cut_pkg
+Description: Description of cut_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

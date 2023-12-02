@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target rgb_pkg_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rgb_pkg_node.dir/src/rgb_pkg_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/lin/catkin_ws/devel/.private/rgb_pkg/lib/rgb_pkg/rgb_pkg_node[0m
+[100%] Built target rgb_pkg_node

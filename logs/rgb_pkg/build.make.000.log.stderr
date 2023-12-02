@@ -1,0 +1,22 @@
+[01m[K/home/lin/catkin_ws/src/rgb_pkg/src/rgb_pkg_node.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/lin/catkin_ws/src/rgb_pkg/src/rgb_pkg_node.cpp:7:27:[m[K [01;31m[Kerror: [m[K‘[01m[KCV_8U3C[m[K’ was not declared in this scope; did you mean ‘[01m[KCV_8UC3[m[K’?
+    7 |     cv::Mat image(400,600,[01;31m[KCV_8U3C[m[K, cv::Scala(0,0,0));
+      |                           [01;31m[K^~~~~~~[m[K
+      |                           [32m[KCV_8UC3[m[K
+[01m[K/home/lin/catkin_ws/src/rgb_pkg/src/rgb_pkg_node.cpp:7:40:[m[K [01;31m[Kerror: [m[K‘[01m[KScala[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KScalar[m[K’?
+    7 |     cv::Mat image(400,600,CV_8U3C, cv::[01;31m[KScala[m[K(0,0,0));
+      |                                        [01;31m[K^~~~~[m[K
+      |                                        [32m[KScalar[m[K
+[01m[K/home/lin/catkin_ws/src/rgb_pkg/src/rgb_pkg_node.cpp:14:40:[m[K [01;31m[Kerror: [m[K‘[01m[KVec3b[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Vec3b[m[K’?
+   14 |             image.at<cv::Vec3b>(y,x) = [01;31m[KVec3b[m[K(0,255,0);//设置为RGB颜色空间的绿色
+      |                                        [01;31m[K^~~~~[m[K
+      |                                        [32m[Kcv::Vec3b[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:57[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/lin/catkin_ws/src/rgb_pkg/src/rgb_pkg_node.cpp:2[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/matx.hpp:401:23:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Vec3b[m[K’ declared here
+  401 | typedef Vec<uchar, 3> [01;36m[KVec3b[m[K;
+      |                       [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/rgb_pkg_node.dir/build.make:63: CMakeFiles/rgb_pkg_node.dir/src/rgb_pkg_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:276: CMakeFiles/rgb_pkg_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

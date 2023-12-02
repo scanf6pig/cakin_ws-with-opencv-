@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/lin/catkin_ws/src/cv_test/CMakeLists.txt:219:
+  Parse error.  Expected a newline, got identifier with text
+  "add_dependencies".
+
+

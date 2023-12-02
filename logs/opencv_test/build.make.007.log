@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target opencv_test_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/opencv_test_node.dir/src/opencv_test_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/lin/catkin_ws/devel/.private/opencv_test/lib/opencv_test/opencv_test_node[0m
+[100%] Built target opencv_test_node

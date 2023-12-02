@@ -1,0 +1,9 @@
+Not searching for unused variables given on the command line.
+[31m[1mCMake Error[0m at /home/lin/catkin_ws/src/cv_test/CMakeLists.txt:219:
+  Parse error.  Expected a newline, got identifier with text
+  "add_dependencies".
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/lin/catkin_ws/build/cv_test/CMakeFiles/CMakeOutput.log".
+See also "/home/lin/catkin_ws/build/cv_test/CMakeFiles/CMakeError.log".

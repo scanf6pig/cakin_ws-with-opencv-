@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target cut_pkg_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cut_pkg_node.dir/src/cut_pkg_node.cpp.o[0m
+[01m[K/home/lin/catkin_ws/src/cut_pkg/src/cut_pkg_node.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/lin/catkin_ws/src/cut_pkg/src/cut_pkg_node.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbitwisw_and[m[K’ was not declared in this scope
+   35 |     [01;31m[Kbitwisw_and[m[K(image, image, brown_image, mask_brown);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/cut_pkg_node.dir/build.make:63: CMakeFiles/cut_pkg_node.dir/src/cut_pkg_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/cut_pkg_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

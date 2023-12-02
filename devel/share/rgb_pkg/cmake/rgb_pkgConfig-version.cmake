@@ -1,0 +1,1 @@
+/home/lin/catkin_ws/devel/.private/rgb_pkg/share/rgb_pkg/cmake/rgb_pkgConfig-version.cmake
